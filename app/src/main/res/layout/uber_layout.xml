@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#f7f7f7"
+        android:padding="10dp"
+        android:src="@drawable/money15" />
+
+    <TextView
+        android:background="@drawable/howtobg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="UBER"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:background="#eaeaea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="EARN BY YOUR CAR"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/how_to_uber"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/n_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="NEXT"
+                android:textColor="@color/white"
+                android:background="@drawable/howtobg1"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#f7f7f7"
+                android:padding="10dp"
+                android:src="@drawable/badge10" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

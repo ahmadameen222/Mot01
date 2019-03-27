@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_act_frag"
+    android:background="@drawable/motbg"
+    tools:context="com.motivational.dell.portfolio002.MainActivityFragment">
+
+
+    <LinearLayout
+        android:id="@+id/howto_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="top|left"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:background="@drawable/howtobg"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="Let's Start Earning Money NOW!"
+                            android:textColor="#FFFF"
+                            android:textSize="8sp"
+                            app:fontFamily="@font/arimo" />
+            -->
+            <!--
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="left"
+                            android:drawableRight="@drawable/arrow"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:textColor="#FFFF"
+                            android:textSize="8sp"
+                            app:fontFamily="@font/arimo" />
+            -->
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center|top"
+            android:src="@drawable/question" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+        </android.support.v4.view.ViewPager>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
